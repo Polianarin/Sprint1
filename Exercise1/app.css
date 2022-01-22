@@ -1,23 +1,19 @@
 
 .container {
     max-width: 1200px;
+   background-color: whitesmoke;
       
 }
 
-,cell {
-    height: 20px;
+.cell {
+  height: 20px;
+}
 
 
-.full_padding {
+.full_padding{
     padding: 20px;
 }
 
-
-.flex_row {
-      display: flex;
-      flex-direction: row; 
-      
-  }
 
 .margin_bottom {
     margin-bottom: 20px;
@@ -29,7 +25,36 @@
 
 }
 
+.flex_row {
+  display: flex;
+  flex-direction: row; 
+    /* is this necessary */  
+}
 
+.wrap {
+  flex-wrap: wrap;
+}
+  
+.length_1 {
+    flex-grow: 1;
+  }
+.length_2 {
+    flex-grow: 2;
+  }
+.length_3 {
+    flex-grow: 3;
+  }
+ 
+
+.half {
+    flex-basis: 48.5%;
+  }
+  
+.full {
+    flex-basis: 100%;
+  }
+  
+  
 .red {
     background-color: red;
 }
@@ -42,6 +67,7 @@
     background-color: gray;
 
 }
+
 .black {
     background-color: black;
 
@@ -57,4 +83,8 @@
 
 .orange {
     background-color: orange; 
+}
+
+.gold {
+   background-color: gold;
 }
