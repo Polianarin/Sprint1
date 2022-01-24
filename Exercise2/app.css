@@ -7,13 +7,14 @@
 
 
 
+
 .cell {
  height: 20px;
 
 }
 
 
-.full_padding{
+.box1, .box2, .box3, .box4, .box5 {
     padding: 20px;
 }
 
@@ -57,6 +58,9 @@
     flex-basis: 100%;
   }
   
+ 
+ 
+ 
   
 .red {
     background-color: red;
@@ -93,9 +97,4 @@
 }
 
 
-@media only screen and (min-width: 768px) {
-  .half {
-      flex-basis: 40%;
-  }
-}
 
