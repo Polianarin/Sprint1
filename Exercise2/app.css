@@ -1,22 +1,26 @@
 
-.container {
+.base {
     max-width: 1200px;
     background-color: whitesmoke;
-      
+    
 }
+
+
 
 
 
 
 .cell {
  height: 20px;
-
 }
 
-
-.box1, .box2, .box3, .box4, .box5 {
+ 
+.container1, .container2, .container3 {
     padding: 20px;
 }
+
+
+
 
 
 .margin_bottom {
@@ -57,9 +61,7 @@
 .full {
     flex-basis: 100%;
   }
-  
- 
- 
+
  
   
 .red {
@@ -96,5 +98,9 @@
    background-color: gold;
 }
 
+@media screen and (max-width: 892px) {
+  .container2 {
+    background-color: yellow;
+  }
 
-
+}
