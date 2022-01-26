@@ -5,21 +5,18 @@
     
 }
 
+.container1, .container2, .container3 {
+  padding: 20px;
+}
 
-
-
+.box1, .box2, .box3, .box4 {
+  padding: 20px;
+}
 
 
 .cell {
- height: 20px;
-}
-
- 
-.container1, .container2, .container3 {
-    padding: 20px;
-}
-
-
+  height: 20px;
+ }
 
 
 
@@ -98,9 +95,10 @@
    background-color: gold;
 }
 
-@media screen and (max-width: 892px) {
+@media screen and (max-width: 769px) {
   .container2 {
     background-color: yellow;
+    flex-direction: column;
+    gap: 20px;
   }
-
 }
