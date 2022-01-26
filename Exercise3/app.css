@@ -1,0 +1,124 @@
+
+.base {
+    max-width: 1200px;
+    background-color: whitesmoke;
+    
+}
+
+.container1, .container2, .container3 {
+  padding: 20px;
+}
+
+.box1, .box2, .box3, .box4 {
+  padding: 20px;
+}
+
+
+.cell {
+  height: 20px;
+ }
+
+
+
+.margin_bottom {
+    margin-bottom: 20px;
+
+}
+
+.margin_right {
+    margin-right: 20px;
+
+}
+
+.flex_row {
+  display: flex;
+    /* is this necessary */  
+}
+
+.wrap {
+  flex-wrap: wrap;
+}
+  
+.length_1 {
+    flex-grow: 1;
+  }
+.length_2 {
+    flex-grow: 2;
+  }
+.length_3 {
+    flex-grow: 3;
+  }
+ 
+
+.half {
+    flex-basis: 48.5%;
+  }
+  
+.full {
+    flex-basis: 100%;
+  }
+
+ 
+  
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.gray {
+    background-color: gray;
+
+}
+
+.black {
+    background-color: black;
+
+}
+.blue {
+    background-color: blue;
+    
+}
+
+.turquoise {
+    background-color: turquoise;
+}
+
+.orange {
+    background-color: orange; 
+}
+
+.gold {
+   background-color: gold;
+}
+
+@media screen and (max-width: 414px) {
+    .box1 { 
+      flex-direction: column;
+      gap: 20px;
+
+    }
+    .container2 {
+        background-color: yellow;
+        flex-direction: column;
+        gap: 10px;
+      }
+      .box1 .margin_right {
+          margin-right: 0;
+      }
+      .box3 .half{
+        flex-basis: 100%;
+        margin-right: 0px;
+
+          
+      }
+  }
+
+
+
+
+
+
+
